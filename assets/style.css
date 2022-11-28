@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+        margin: 0;
+        padding: 0;
+}
+
+body{
+        font-family: 'Roboto', sans-serif;
+}
+
+li, a{
+        text-decoration: none;
+        list-style: none;
+        color: #000000;
+        margin: 10px;
+        text-transform: uppercase;
+}
+a:hover{
+        color: #fc5c65;
+}
+
+.container-header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+}
+.container-header ul{
+        display: flex;
+}
+
+.section{
+        height: 600px;
+        display: flex;
+        align-items: center;
+}
+.intro{
+        justify-content: space-around;
+}
+
+.texto-intro h1{
+        font-size: 70px;
+}
+.texto-intro h3{
+        font-size: 35px;
+}
+.texto-intro p{
+        font-size: 25px;
+}
+.links-intro ul{
+        display: flex;
+}
+.intro img{
+        width: 500px;
+}
+
+.sobre{
+        margin: 0 60px;
+}
+.sobre-p{
+        border-radius: 10px;
+        padding: 40px;
+        font-size: 35px;
+        text-indent: 0%;
+        box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+}
+.projetos{
+        flex-direction: column;
+}
+.projetos h1{
+        font-size: 50px;
+}
+.row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 5px;
+        box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+        padding: 20px;
+        margin: 20px;
+        width: 400px;
+}
+
+.image {
+        margin-top: 20px;
+        float: top;
+        max-width: 400px;
+        height: 250px;
+}
+
+footer{
+        background: #f1f1f1;
+        padding: 50px 0;
+}
+.footer-container{
+        max-width: 1300px;
+        margin: auto;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+}
+.footer-container p{
+        margin-top: 20px;
+}
+.social-media a{
+        color: #001a21;
+        margin-right: 25px;
+        font-size: 15px;
+        text-decoration: none;
+        transition: .3s linear;
+}
+.social-media a:hover{
+        color: #fc5c65;
+}
