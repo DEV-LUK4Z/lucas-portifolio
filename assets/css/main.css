@@ -18,8 +18,9 @@ body {
 
 header {
         position: fixed;
-        padding: 20px 120px 0 120px;
+        padding: 20px 120px;
         width: 100%;
+        background-color: var(--text-color);
 }
 header nav {
         max-width: 1200px;
@@ -75,7 +76,7 @@ section {
         display: flex;
         justify-content: center;
 }
-section .main {
+.main {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -85,25 +86,25 @@ section .main {
 
         margin: 250px 10px 300px 10px;
 }
-section .main p {
+.main p {
         font-size: 30px;
         color: var(--cor_01);
 }
-section .main h1 {
+.main h1 {
         font-size: 60px;
         text-align: center;
         text-transform: uppercase;
         color: var(--cor_02);
         margin-bottom: 20px;
 }
-section .main .links {
+.main .links {
         width: 500px;
         height: 60px;
 
         display: flex;
         justify-content: space-around;
 }
-section .main .links a {
+.main .links a {
         width: 150px;
         height: 100%;
         line-height: 60px;
@@ -118,16 +119,87 @@ section .main .links a {
         background-color: var(--cor_03);
 }
 
+.about {
+        width: 100vw;
+        padding: 100px 200px ;
+       
+       display: flex;
+       flex-direction: column;
+}
+.about .titulo {
+        display: flex;
+}
+.about .titulo h1 {
+        font-size: 60px;
+        text-transform: uppercase;
+        color: var(--cor_02);
+}
+.about .titulo div {
+        width: 850px;
+        border-bottom: 10px solid var(--cor_02);
+}
+.about .conteudo {
+        padding: 70px 0;
 
+        display: flex;
+        gap: 120px;
+}
+.about .conteudo .text p {
+        text-align: justify;
+        font-size: 25px;
+}
+.about .conteudo .image img {
+        width: 380px;
+        height: 400px;
 
+        margin-right: 18px;
+}
 
-
+.projects {
+        width: 100vw;
+        padding: 100px 200px ;
+       
+       display: flex;
+       flex-direction: column;
+}
 
 /* =========== MOBILE =========== */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
+        header {
+                padding: 10px 20px;
+        }
+        header nav h1 {
+                font-size: 30px;
+        }
         header nav ul {
                 flex-direction: column;
                 justify-content: flex-start;
+        }
+
+        section .main h1 {
+                font-size: 50px;
+        }
+        
+}
+
+@media screen and (max-width: 620px) {
+        section .main h1 {
+                font-size: 30px;
+        }
+        section .main p {
+                font-size: 20px;
+        }
+
+        section .main .links {
+                width: 400px;
+        
+                display: flex;
+                justify-content: space-around;
+        }
+        section .main .links a {
+                width: 100px;
+                height: 80%;
+                line-height: 50px;
         }
 }
