@@ -81,10 +81,10 @@ section {
         flex-direction: column;
         align-items: center;
 
-        width: 890px;
+        width: 100vw;
         min-height: 335px;
 
-        margin: 250px 10px 300px 10px;
+        padding: 200px 0px;
 }
 .main p {
         font-size: 30px;
@@ -117,6 +117,9 @@ section {
 
         color: var(--text-color);
         background-color: var(--cor_03);
+}
+.main .seta {
+        margin-top: 200px;
 }
 
 .about {
@@ -162,7 +165,64 @@ section {
        display: flex;
        flex-direction: column;
 }
+.projects .titulo {
+        display: flex;
+}
+.projects .titulo h1 {
+        font-size: 60px;
+        text-transform: uppercase;
+        color: var(--cor_02);
+}
+.projects .titulo div {
+        width: 850px;
+        border-bottom: 10px solid var(--cor_02);
+}
+.projects .description {
+        margin: 50px 0;
+        font-size: 25px;
+}
+.projects .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+}
+.projects .container .card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
+        padding: 20px;
+        gap: 10px;
+        
+        border: 5px solid var(--cor_01);
+        border-radius: 10px;
+}
+.projects .container .card h2 {
+        text-transform: uppercase;
+        font-size: 25px;
+        color: var(--cor_01);
+}
+.projects .container .card img {
+        max-width: 350px;
+        height: 100%;
+        margin: 10px;
+        border-radius: 10px;
+}
+.projects .container .card button {
+        border: none;
+        border-radius: 10px;
+        
+        width: 150px;
+        height: 60px;
+
+        background-color: var(--cor_01);
+        color: var(--text-color);
+
+        font-size: 20px;
+        text-transform: uppercase;
+
+}
 /* =========== MOBILE =========== */
 
 @media screen and (max-width: 900px) {
