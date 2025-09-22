@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Lucas Soares - Desenvolvedor e Pesquisador de Tecnologias Imersivas">
+    <meta name="author" content="Lucas Soares">
+    
+    <title>LUK4Z</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="content-wrapper">
+        <header class="header">
+            <nav class="nav">
+                <a href="#" class="logo">LUK4Z</a>
+                
+                <ul class="nav-menu">
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#projetos" class="nav-link">Projetos</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+                
+                <button class="theme-toggle" aria-label="Alternar tema">☀️</button>
+                <button class="mobile-menu-btn">☰</button>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="hero-content">
+                    <div class="hero-intro">
+                        <div class="hero-text">
+                            <h1 class="hero-title">
+                                Olá, eu sou <strong>Lucas Soares</strong>! 👋<br>
+                                <span class="hero-highlight">Desenvolvedor & Pesquisador</span>
+                            </h1>
+                        </div>
+                        <img src="foto-perfil.jpeg" alt="Foto de perfil de Lucas Santos" class="profile-image">
+                    </div>
+                    <p class="hero-subtitle">
+                        Desenvolvedor e pesquisador de tecnologias imersivas, recém-formado em Sistemas de Informação pela UFPA.
+                    </p>
+                    <a href="#projetos" class="cta-button">Veja meus projetos</a>
+                </div>
+            </section>
+
+            <section id="sobre" class="section">
+                <h2 class="section-title">Sobre Mim</h2>
+                <div class="about-content">
+                    <p>
+                        Olá! Sou Lucas Santos, desenvolvedor e pesquisador de tecnologias imersivas, 
+                        recém-formado em Sistemas de Informação pela Universidade Federal do Pará (UFPA).
+                    </p>
+                    <p>
+                        Minha paixão está na intersecção entre o mundo físico e o digital, com foco em criar 
+                        experiências interativas através da Realidade Virtual (VR), Aumentada (AR) e Mista (MR). 
+                        Busco oportunidades para aplicar meu conhecimento em projetos inovadores.
+                    </p>
+                    <p>
+                        Atualmente estou aprofundando meus estudos em desenvolvimento web com Python e Django, 
+                        explorando frameworks como A-Frame e Three.js para criação de experiências VR na web.
+                    </p>
+                </div>
+            </section>
+
+            <section id="projetos" class="section">
+                <h2 class="section-title">Projetos Destacados</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <h3 class="project-title">Tour Virtual FACOMP</h3>
+                        <p class="project-description">
+                            Tour virtual interativo da Faculdade de Computação, desenvolvido com 
+                            tecnologias web modernas para proporcionar uma experiência imersiva.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML5</span>
+                            <span class="project-tag">CSS3</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">WebGL</span>
+                        </div>
+                        <a href="https://github.com/DEV-LUK4Z/tour_virtual_facomp" class="project-link" target="_blank">Ver no GitHub</a>
+                    </article>
+
+                    <article class="project-card">
+                        <h3 class="project-title">Sistema de Cadastro</h3>
+                        <p class="project-description">
+                            Sistema completo de cadastro de usuários com validação de dados, 
+                            interface responsiva e funcionalidades de CRUD.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">LocalStorage</span>
+                        </div>
+                        <a href="https://github.com/DEV-LUK4Z/sistema_de_cadastro" class="project-link" target="_blank">Ver no GitHub</a>
+                    </article>
+
+                    <article class="project-card">
+                        <h3 class="project-title">Verificador de Idade</h3>
+                        <p class="project-description">
+                            Aplicação web que verifica a idade do usuário e exibe informações 
+                            personalizadas com interface dinâmica e responsiva.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">DOM</span>
+                        </div>
+                        <a href="https://github.com/DEV-LUK4Z/verificador-de-idade" class="project-link" target="_blank">Ver no GitHub</a>
+                    </article>
+                </div>
+            </section>
+
+            <section id="contato" class="section">
+                <div class="contact-content">
+                    <h2 class="section-title">Vamos Conversar</h2>
+                    <p class="contact-description">
+                        Estou sempre aberto a novas oportunidades e colaborações. 
+                        Sinta-se à vontade para entrar em contato.
+                    </p>
+                    
+                    <a href="mailto:contato.lucas.soares.dev@gmail.com" class="contact-email">
+                        contato.lucas.soares.dev@gmail.com
+                    </a>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/DEV-LUK4Z" class="social-link" target="_blank">GitHub</a>
+                        <a href="https://linkedin.com/in/luk4z" class="social-link" target="_blank">LinkedIn</a>
+                        <a href="https://instagram.com/lucas.nao.sabe" class="social-link" target="_blank">Instagram</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2024 <strong>Lucas Soares</strong>. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+
+    <script src="js/theme.js"></script>
+    <script src="js/navigation.js"></script>
+</body>
+</html>
